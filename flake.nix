@@ -1,5 +1,5 @@
 {
-    description = "hledger development flake";
+    description = "hledger_site development flake";
     inputs = {
         nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     };
@@ -11,18 +11,7 @@
     {
         devShells."x86_64-linux".default = with pkgs; mkShell {
             packages = with pkgs; [
-                cabal-install
-                ghc
-                ghcid
-                gnum4
-                groff
-                haskellPackages.hasktags
-                haskellPackages.quickbench
-                haskellPackages.shelltestrunner
-                just
-                pandoc
-                stack
-                watchexec
+                mdbook
             ];
         };
     };
