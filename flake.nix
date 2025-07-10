@@ -13,6 +13,7 @@
             packages = with pkgs; [
                 mdbook
                 mdbook-toc
+                nodejs
             ];
         };
     };

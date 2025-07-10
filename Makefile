@@ -92,7 +92,7 @@ build3-%:
 #	@echo "building sitemap.xml"
 sitemap:
 	@for d in out2/*; do cp $$d/* out/`basename $$d`; done
-	@sscli -b https://hledger.org -r out/
+	@npx sscli -b https://hledger.org -r out/
 
 clean:
 	mdbook clean
