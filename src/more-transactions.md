@@ -1,8 +1,10 @@
 # More transactions
 
-Here's a journal with a few more transactions.
-You could practice using `hledger add` to add similar transactions to your journal.
-Or: open the file in a text editor and copy/paste these entries.
+Now, to test some reports, let's make your journal look like the one below.
+
+As usual, there two common ways to update the journal:
+- You could delete the old file, then use `hledger add` to add each of the entries below.
+- Or you can open the file in your text editor and replace the contents with the below.
 
 ```journal
 2025-01-01 starting balances
@@ -29,13 +31,12 @@ Or: open the file in a text editor and copy/paste these entries.
     expenses:supplies          50 USD
 
 ```
+
 A few differences from the previous example:
 
 - The starting balances transaction now sets balances for three accounts, not just one.
-- One of them is a liability, a credit card with a balance owed; so this one is negative.
+- One of them is a liability (a credit card with a balance owed); so this one is negative.
 - Currency symbols are using a different style: a three-letter currency code, on the right side.
-- These entries leave one of the amounts blank; those will be calculated automatically.
-  (Eg for equity:start it is -700 USD.)
 
 These entries represent the following money flows:
 
@@ -46,5 +47,7 @@ These entries represent the following money flows:
 | 3. **revenues -> checking**            | receive salary to checking account                    |
 | 4. **checking -> credit card**         | pay part of credit card balance from checking account |
 | 5. **checking -> food, supplies**      | a mixed purchase from checking account                |
+
+<br>
 
 (Part of [hledger by example](hledger-by-example.md).)

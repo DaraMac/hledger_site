@@ -118,7 +118,7 @@ This plain text accounting stuff is both useful and much more fun than you'd thi
 
 **[Support](support.md)** lists our chats and other fora - don't hesitate to ask questions, report issues, or search.
 
-**[Docs](doc.md)** has all the info you might need next.
+**[Docs](doc.md)** has the info you might need next.
 Here are some common paths for getting started:
 
 - **If you're technical and want a quick taste of hledger:**\
@@ -127,28 +127,28 @@ Here are some common paths for getting started:
   [5 minute](5-minute-quick-start.md),
   or [10 minute](10-minute-quick-start.md) quick starts.
 
+- **If you'd like to go straight to the authoritative reference:**\
+  read the **[hledger manual](hledger.md)**.
+
 - **If you'd like a more gentle introduction:**\
-  see [Tutorial: hledger add](add.md).
+  read **[hledger by example](hledger-by-example.md)**, or see the [tutorials](doc.md#tutorials).
 
 <!-- - **If you'd like to avoid the command line and use a terminal interface instead:**\ -->
 <!--   see [Tutorial: hledger-ui](ui.md). -->
 
+- **If you like to learn by exploring:**\
+  try running some commands. You won't break anything. Here's a good sequence:
+  `hledger setup`, `hledger`, `hledger demo`, `hledger add`, `hledger print`, `hledger balance`, `hledger ui`, `hledger web`, `hledger help`
+
 - **If you'd like to avoid the terminal and use a web browser instead:**\
-  see [Tutorial: hledger-web](web.md).
+  see [Tutorial: hledger-web](web.md) and the [hledger-web demo](https://demo.hledger.org).
 
 - **If you'd like to watch/listen to a video:**\
   see [Videos](videos.md).
 
-- **If you'd like to better understand the accounting part:**\
+- **If you'd like to learn more about the accounting part:**\
   see [Accounting basics for PTA users](accounting-pta.md)
   and maybe [Accounting: further study](accounting.md).
-
-- **If you like to learn by exploring:**\
-  try running some commands. They are all safe, you won't break anything. Here's a good sequence:
-  `hledger setup`, `hledger`, `hledger demo`, `hledger add`, `hledger print`, `hledger balance`, `hledger ui`, `hledger web`, `hledger help`
-
-- **If you'd like to go straight to the authoritative doc:**\
-  read the **[hledger manual](hledger.md)**, you wise and sensible person.
 
 ## Get involved
 
@@ -504,11 +504,11 @@ The other really big win is that you can put your accounting in source control. 
 
 One nice feature of hledger is its csv rules system, which is very flexible. -- faustiast
 
-I'm an on-again, off-again contributor to GnuCash but I really like ledger too, and especially hledger because just knowing it's Haskell puts my mind at ease about several things. --HN
+I'm an on-again, off-again contributor to GnuCash but I really like ledger too, and especially hledger because just knowing it's Haskell puts my mind at ease about several things. --yawaramin
 
 Just going on record to say that plain text accounting is everything I hoped it would be. I'm keeping up to date with data entry, and finally seeing patterns that are helping me plan ahead. --ellane
 
-Wow, hledger looks impressive. I think I'll use it as an example for when people ask for a "real world haskell program" as it has a web interface, gui (I think I saw one), is cross platform, and only requires downloading the executable. --HN
+Wow, hledger looks impressive. I think I'll use it as an example for when people ask for a "real world haskell program" as it has a web interface, gui (I think I saw one), is cross platform, and only requires downloading the executable. --codygman
 
 I really like how I can complicate things at my own pace: import rules messing up some transactions but no spoons to fix it now? Just add them manually, and the journal is still fine. --rigrig
 
@@ -517,7 +517,8 @@ I just started using hledger for personal double-entry bookkeeping. So far it is
 - I can split up transactions between different accounts. This is useful because I can split a dinner bill between my credit card and cash. It is also useful because I can split items from a large Amazon order into their respective categories.
 - The ledger file is a very simple text file, so I can keep it in version control.
 - I haven't taken advantage of the report features yet, but they look very flexible. You can add up any accounts you want based on regular expressions.
-- You can have "virtual" accounts that can be used for budgets. For example, you can set aside arbitrary chunks of your savings account for different purposes and keep track of them separately, even though they all actually reside in your savings account at your bank. --HN
+- You can have "virtual" accounts that can be used for budgets. For example, you can set aside arbitrary chunks of your savings account for different purposes and keep track of them separately, even though they all actually reside in your savings account at your bank.
+--jdreaver
 
 I have massively enjoyed using hledger and am incredibly impressed with how active the development and support for it are! --Pixelized
 
@@ -752,6 +753,9 @@ I had a wonderful time setting up a static site for viewing my hledger data.
 I wanted something more accessible on mobile than command-line reports, ... 
 I’m very happy with everything and it was so easy with all the tools we have now.
 --TheRealDaMuffin
+
+I just started using hledger myself and I love it.
+--Shivalicious
 
 `;
 </script>

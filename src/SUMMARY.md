@@ -20,22 +20,33 @@
 
 # HLEDGER BY EXAMPLE
 
+<!-- keep these in order: -->
 - [hledger by example](hledger-by-example.md)
-<!-- keeping these in order under their parent -->
-- [Getting hledger installed](getting-hledger-installed.md)
-- [Checking your setup](checking-your-setup.md)
-- [A default journal file](a-default-journal-file.md)
-- [First transaction: starting balances](first-transaction.md)
+- [Get hledger installed](get-hledger-installed.md)
+- [Check your setup](check-your-setup.md)
+- [Start a journal](start-a-journal.md)
+- [Add a transaction: starting balances](add-a-transaction.md)
 - [Journal entries](journal-entries.md)
+- [Account names](account-names.md)
 - [More transactions](more-transactions.md)
+- [Overview of commands](commands.md)
 - [print: show whole transactions](print-.md)
-- [register: show postings](register.md)
+- [register: show detailed changes](register.md)
 - [balance: show account totals](balance.md)
+<!--
+- [Account types]
+- [accounts: list accounts]
+-->
+- [balancesheet: assets and liabilities](balancesheet.md)
+- [incomestatement: revenues and expenses](incomestatement.md)
+<!--
+- [cashflow: changes in cash accounts](cashflow.md)
+-->
 
-- [Reading timeclock files](reading-timeclock-files.md)
-- [Reading timedot files](reading-timedot-files.md)
 - [Reading CSV files](reading-csv-files.md)
 - [Importing new transactions](importing-new-transactions.md)
+- [Reading timeclock files](reading-timeclock-files.md)
+- [Reading timedot files](reading-timedot-files.md)
 
 # OTHER PAGES
 
