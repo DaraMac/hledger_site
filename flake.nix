@@ -12,6 +12,7 @@
         devShells."x86_64-linux".default = with pkgs; mkShell {
             packages = with pkgs; [
                 mdbook
+                mdbook-toc
             ];
         };
     };
