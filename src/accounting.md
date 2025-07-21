@@ -33,7 +33,6 @@ beyond the [Accounting basics for PTA users](accounting-pta.md).
 - [Track Every Penny You Spend](http://www.getrichslowly.org/blog/2006/09/22/track-every-penny-you-spend/) Get Rich Slowly
 - [I’ve Tracked My Expenses — Now What?](http://www.getrichslowly.org/blog/2011/04/08/ask-the-readers-ive-tracked-my-expenses-now-what/) Get Rich Slowly
 - [A Slow-Tech Approach to Tracking Spending](http://mobile.nytimes.com/2014/05/12/your-money/household-budgeting/a-slow-tech-approach-to-tracking-spending.html)
-- [Your Financial Network Map](http://www.bargaineering.com/articles/financial-network-map.html)
 - [The Accountancy Model and The Accountancy Model Examples](https://www.google.com/search?hl=en&q=%2B%22The%20Accountancy%20Model%22%20%2B%22The%20Accountancy%20Model%20Examples%22) - two free books by Tim Riley
 - [Gnucash and double entry accounting](http://www.austintek.com/gnucash/ncsa-gnucash-talk.html) - double entry accounting introduction with examples
 - [Accounting for Computer Scientists](http://martin.kleppmann.com/2011/03/07/accounting-for-computer-scientists.html)
