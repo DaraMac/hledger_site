@@ -266,12 +266,6 @@ Old issues:
 - [nix: nix install on linux can fail with "cloning builder process: Operation not permitted"](https://github.com/simonmichael/hledger/issues/1030)
 - [nix: on Linux, nix-installed hledger won't handle non-ascii data](https://github.com/simonmichael/hledger/issues/1033)
 
-### On Android
-
-Here's 
-[how to build hledger on Android with Termux](https://libera.ems.host/_matrix/media/r0/download/libera.chat/51835530d2b9eed094096d8a2c79e03dda2c35fb),
-if your phone has plenty of memory.
-
 ### Build tips
 
 - Building the hledger tools and possibly all their dependencies could take anywhere from a minute to an hour.
